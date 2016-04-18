@@ -1,0 +1,35 @@
+body {
+}
+
+div#centered {
+  display: inline-block;
+  margin: 0 auto;
+}
+div.wd-calendar {
+  margin: 0 auto;
+}
+
+div.wd-calendar div.wd-year {
+  display: block;
+}
+
+div.wd-calendar div.wd-year span.wd-week {
+  display: inline-block;
+  overflow: hidden;
+
+  width: 8px;
+  height: 8px;
+  margin: 3px;
+
+  border: 1px solid #FF9933;
+  border-radius: 2px;
+}
+
+div.wd-calendar div.wd-year span.wd-week-expired {
+  background: #FF9933;
+}
+
+div.wd-calendar div.wd-year span.wd-week-current {
+  background: #FF0000;
+  border-color: #FF0000;
+}
