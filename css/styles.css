@@ -2,9 +2,10 @@ body {
 }
 
 div#centered {
-  display: inline-block;
   margin: 0 auto;
+  width: 740px;
 }
+
 div.wd-calendar {
   margin: 0 auto;
 }
